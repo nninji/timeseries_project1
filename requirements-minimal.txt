@@ -1,0 +1,10 @@
+# 배포가 가벼워야 할 때 사용 (pmdarima와 sktime 제외)
+# Auto-ARIMA는 statsmodels로 자동 폴백됩니다.
+# 사용 시: requirements.txt를 이 파일로 교체
+
+streamlit>=1.32.0
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+plotly>=5.18.0
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
